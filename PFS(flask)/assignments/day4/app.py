@@ -35,7 +35,7 @@ def subject_uuid(subject):
 # Static route: about page
 @app.route("/about")
 def about():
-    return "<h1>About Page</h1><p>Welcome to my Flask application!</p><a href='/home'>Back to Home</a>"
+    return "<h1>About Page</h1><p>Welcome to my Flask application!</p>Back to Home</a>"
 
 if __name__ == "__main__":
     app.run(debug=True)
